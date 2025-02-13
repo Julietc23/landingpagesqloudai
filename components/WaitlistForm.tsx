@@ -8,8 +8,8 @@ import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 
 const supabase = createClient(
-  "https://TU_SUPABASE_URL.supabase.co",  // Reemplaza con tu URL de Supabase
-  "TU_SUPABASE_ANON_KEY"  // Reemplaza con tu Anon Key
+  "https://tsfmtbtkipspmbpwyocm.supabase.co",  // Reemplaza con tu URL de Supabase
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRzZm10YnRraXBzcG1icHd5b2NtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Mzk0Nzc4NDAsImV4cCI6MjA1NTA1Mzg0MH0.rf0JuLaonPGpgi6UGgAiS2AsQ17xIwUz9weZowG4XjQ"  // Reemplaza con tu Anon Key
 );
 
 export function WaitlistForm() {
