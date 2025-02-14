@@ -29,6 +29,9 @@ export default function Home() {
           </div>
         </section>
       </main>
+      <div className="py-4 text-center text-sm text-zinc-500">
+        © {new Date().getFullYear()} sQloudAI. Todos los derechos reservados.
+      </div>
     </div>
   )
 }
