@@ -3,6 +3,7 @@ import localFont from "next/font/local"
 import type { Metadata } from "next"
 import { ThemeProvider } from "@/components/theme-provider"
 import type React from "react"
+import { Analytics } from '@vercel/analytics/react';
 
 const calSans = localFont({
   src: "../public/fonts/CalSans-SemiBold.woff2",
