@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title: "sQloudAI - Gestión de Bases de Datos con IA",
   description:
     "sQloudAI ofrece soluciones innovadoras para la gestión de bases de datos utilizando inteligencia artificial.",
-    generator: 'v0.dev'
+  generator: 'v0.dev'
 }
 
 export default function RootLayout({
@@ -24,7 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es" suppressHydrationWarning>
-      <body className={${calSans.variable}}>
+      <body className={calSans.variable}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           {children}
         </ThemeProvider>
