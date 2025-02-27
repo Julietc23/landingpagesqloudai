@@ -9,8 +9,8 @@ import type React from "react" // Added import for React
 import { createClient } from "@supabase/supabase-js"
 
 const supabase = createClient(
-  "https://tsfmtbtkipspmbpwyocm.supabase.co",
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRzZm10YnRraXBzcG1icHd5b2NtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Mzk0Nzc4NDAsImV4cCI6MjA1NTA1Mzg0MH0.rf0JuLaonPGpgi6UGgAiS2AsQ17xIwUz9weZowG4XjQ",
+  "https://ghxuhuemkcwqfxuamubv.supabase.co",
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdoeHVodWVta2N3cWZ4dWFtdWJ2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDA2ODQxNTAsImV4cCI6MjA1NjI2MDE1MH0.7atItl0XRdlXmqHa76vVbiE5CU8okVe1xwVQ69_K1OM",
 )
 
 export function WaitlistForm() {
